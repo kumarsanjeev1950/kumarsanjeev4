@@ -24,8 +24,8 @@ document.querySelectorAll(".tilt").forEach((box) => {
     const centerX = r.width / 2;
     const centerY = r.height / 2;
 
-    const rotateY = ((x - centerX) / centerX) * 18; // Left-right rotation
-    const rotateX = -((y - centerY) / centerY) * 18; // Up-down rotation
+    const rotateY = ((x - centerX) / centerX) * 30; // Left-right rotation
+    const rotateX = -((y - centerY) / centerY) * 30; // Up-down rotation
 
     yRotation = rotateY;
     xRotation = rotateX;
@@ -94,3 +94,4 @@ document.querySelectorAll(".card").forEach((card) => {
     card.style.setProperty("--y", `${y}px`);
   });
 });
+
