@@ -24,7 +24,7 @@ body {
 
 /* ---------------- 3D UNIVERSAL ---------------- */
 .tilt {
-  transition: transform 0.3s ease;
+  transition: transform 0.1s ease;
   transform-style: preserve-3d;
   perspective: 900px;
   text-align: center;
@@ -266,3 +266,4 @@ nav a:hover {
 .card:hover::after {
   opacity: 1;
 }
+
