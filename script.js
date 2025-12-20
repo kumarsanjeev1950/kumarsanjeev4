@@ -40,7 +40,7 @@ document.querySelectorAll(".tilt").forEach((box) => {
   box.addEventListener("mouseleave", () => {
     box.style.transition = "transform 0.5s ease";
     box.style.transform =
-      "perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1,1,1)";
+      "perspective(1000px) rotateX(0deg) rotateY(0deg) scale3d(1.05,1.05,1.05)";
   });
 });
 
@@ -94,4 +94,5 @@ document.querySelectorAll(".card").forEach((card) => {
     card.style.setProperty("--y", `${y}px`);
   });
 });
+
 
